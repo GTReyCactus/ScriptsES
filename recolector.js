@@ -71,7 +71,7 @@ function scavenge() {
             <table class="scavengeTable" width="15%" style="border: 7px solid rgba(121,0,0,0.71); border-image-slice: 7 7 7 7; border-image-source: url(https://dsen.innogamescdn.com/asset/cf2959e7/graphic/border/frame-gold-red.png);">\
                <tbody>\
                   <tr>\
-                     <th style="text-align:center" colspan="13">Configurar unidades y tiempo de recolección</th>\
+                     <th style="text-align:center" colspan="13">Unidades y tiempo de recolección</th>\
                   </tr>\
                   <tr>\
                      <th style="text-align:center" width="35"><a href="#" class="unit_link" data-unit="spear"><img src="https://dsen.innogamescdn.com/asset/cf2959e7/graphic/unit/unit_spear.png" title="Lanceros" alt="" class=""></a></th>\
@@ -102,7 +102,7 @@ function scavenge() {
             <table class="scavengeTable" width="15%" style="border: 7px solid rgba(121,0,0,0.71); border-image-slice: 7 7 7 7; border-image-source: url(https://dsen.innogamescdn.com/asset/cf2959e7/graphic/border/frame-gold-red.png);">\
              <tbody>\
                   <tr>\
-                     <th style="text-align:center" colspan="11">Configurar unidades y tiempo de recolección</th>\
+                     <th style="text-align:center" colspan="11">Unidades y tiempo de recolección</th>\
                   </tr>\
                   <tr>\
                      <th style="text-align:center" width="35"><a href="#" class="unit_link" data-unit="spear"><img src="https://dsen.innogamescdn.com/asset/cf2959e7/graphic/unit/unit_spear.png" title="Lanceros" alt="" class=""></a></th>\
