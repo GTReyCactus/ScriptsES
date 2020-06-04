@@ -1,12 +1,11 @@
 javascript:
-// Creadores originales: Sophie "Shinko to Kuma" - Mitchell "Superdog"
+//Creators: Sophie "Shinko to Kuma" - Mitchell "Superdog"
     /*Update list:
     V1.0 - Updated 2/03 - Added automatic grabbing of iables!
     V1.1 - Updated 7/03 - Functionality on all servers!
     V1.2 - Updated 8/03 - rewrote script to fix some big bugs, condensed code, retiring old version
     V1.3 - Updated 9/03 - Adjusted script to work on mobile APP!
     */
-
 // MOD en español para guerrastribales.es por *REYCACTUS*
     /*Lista de cambios:
     V2.0 - Actualizado el 04/06/2020 - Traducción y cambios visuales
@@ -75,13 +74,13 @@ function scavenge() {
                      <th style="text-align:center" colspan="13">Configurar unidades y tiempo de recolección</th>\
                   </tr>\
                   <tr>\
-                     <th style="text-align:center" width="35"><a href="#" class="unit_link" data-unit="spear"><img src="https://dsen.innogamescdn.com/asset/cf2959e7/graphic/unit/unit_spear.png" title="Spear fighter" alt="" class=""></a></th>\
-                     <th style="text-align:center" width="35"><a href="#" class="unit_link" data-unit="sword"><img src="https://dsen.innogamescdn.com/asset/cf2959e7/graphic/unit/unit_sword.png" title="Swordsman" alt="" class=""></a></th>\
-                     <th style="text-align:center" width="35"><a href="#" class="unit_link" data-unit="axe"><img src="https://dsen.innogamescdn.com/asset/cf2959e7/graphic/unit/unit_axe.png" title="Axeman" alt="" class=""></a></th>\
-                     <th style="text-align:center" width="35"><a href="#" cl ass="unit_link" data-unit="archer"><img src="https://dsen.innogamescdn.com/asset/cf2959e7/graphic/unit/unit_archer.png" title="Archer" alt="" class=""></a></th>\
-                     <th style="text-align:center" width="35"><a href="#" class="unit_link" data-unit="light"><img src="https://dsen.innogamescdn.com/asset/cf2959e7/graphic/unit/unit_light.png" title="Light cavalry" alt="" class=""></a></th>\
-                     <th style="text-align:center" width="35"><a href="#" class="unit_link" data-unit="marcher"><img src="https://dsen.innogamescdn.com/asset/cf2959e7/graphic/unit/unit_marcher.png" title="Mounted Archer" alt="" class=""></a></th>\
-                     <th style="text-align:center" width="35"><a href="#" class="unit_link" data-unit="heavy"><img src="https://dsen.innogamescdn.com/asset/cf2959e7/graphic/unit/unit_heavy.png" title="Heavy cavalry" alt="" class=""></a></th>\
+                     <th style="text-align:center" width="35"><a href="#" class="unit_link" data-unit="spear"><img src="https://dsen.innogamescdn.com/asset/cf2959e7/graphic/unit/unit_spear.png" title="Lanceros" alt="" class=""></a></th>\
+                     <th style="text-align:center" width="35"><a href="#" class="unit_link" data-unit="sword"><img src="https://dsen.innogamescdn.com/asset/cf2959e7/graphic/unit/unit_sword.png" title="Espadas" alt="" class=""></a></th>\
+                     <th style="text-align:center" width="35"><a href="#" class="unit_link" data-unit="axe"><img src="https://dsen.innogamescdn.com/asset/cf2959e7/graphic/unit/unit_axe.png" title="Hachas" alt="" class=""></a></th>\
+                     <th style="text-align:center" width="35"><a href="#" cl ass="unit_link" data-unit="archer"><img src="https://dsen.innogamescdn.com/asset/cf2959e7/graphic/unit/unit_archer.png" title="Arqueros" alt="" class=""></a></th>\
+                     <th style="text-align:center" width="35"><a href="#" class="unit_link" data-unit="light"><img src="https://dsen.innogamescdn.com/asset/cf2959e7/graphic/unit/unit_light.png" title="Caballería ligera" alt="" class=""></a></th>\
+                     <th style="text-align:center" width="35"><a href="#" class="unit_link" data-unit="marcher"><img src="https://dsen.innogamescdn.com/asset/cf2959e7/graphic/unit/unit_marcher.png" title="Arqueros a caballo" alt="" class=""></a></th>\
+                     <th style="text-align:center" width="35"><a href="#" class="unit_link" data-unit="heavy"><img src="https://dsen.innogamescdn.com/asset/cf2959e7/graphic/unit/unit_heavy.png" title="Caballería pesada" alt="" class=""></a></th>\
                      <th style="text-align:center" nowrap>Tiempo objetivo</th>\
                   </tr>\
                   <tr>\
@@ -92,7 +91,7 @@ function scavenge() {
                      <td align="center"><input type="checkbox" ID="light" name="light" ></td>\
                      <td align="center"><input type="checkbox" ID="marcher" name="marcher" ></td>\
                      <td align="center"><input type="checkbox" ID="heavy" name="heavy" ></td>\
-                     <td ID="runtime" align="center"><input type="text" ID="hours" name="hours" size="4" maxlength="5" align=left > hours</td>\
+                     <td ID="runtime" align="center"><input type="text" ID="hours" name="hours" size="4" maxlength="5" align=left > horas</td>\
                </tbody>\
             </table>\
             </br>\
@@ -106,11 +105,11 @@ function scavenge() {
                      <th style="text-align:center" colspan="11">Configurar unidades y tiempo de recolección</th>\
                   </tr>\
                   <tr>\
-                     <th style="text-align:center" width="35"><a href="#" class="unit_link" data-unit="spear"><img src="https://dsen.innogamescdn.com/asset/cf2959e7/graphic/unit/unit_spear.png" title="Spear fighter" alt="" class=""></a></th>\
-                     <th style="text-align:center" width="35"><a href="#" class="unit_link" data-unit="sword"><img src="https://dsen.innogamescdn.com/asset/cf2959e7/graphic/unit/unit_sword.png" title="Swordsman" alt="" class=""></a></th>\
-                     <th style="text-align:center" width="35"><a href="#" class="unit_link" data-unit="axe"><img src="https://dsen.innogamescdn.com/asset/cf2959e7/graphic/unit/unit_axe.png" title="Axeman" alt="" class=""></a></th>\
-                     <th style="text-align:center" width="35"><a href="#" class="unit_link" data-unit="light"><img src="https://dsen.innogamescdn.com/asset/cf2959e7/graphic/unit/unit_light.png" title="Light cavalry" alt="" class=""></a></th>\
-                     <th style="text-align:center" width="35"><a href="#" class="unit_link" data-unit="heavy"><img src="https://dsen.innogamescdn.com/asset/cf2959e7/graphic/unit/unit_heavy.png" title="Heavy cavalry" alt="" class=""></a></th>\
+                     <th style="text-align:center" width="35"><a href="#" class="unit_link" data-unit="spear"><img src="https://dsen.innogamescdn.com/asset/cf2959e7/graphic/unit/unit_spear.png" title="Lanceros" alt="" class=""></a></th>\
+                     <th style="text-align:center" width="35"><a href="#" class="unit_link" data-unit="sword"><img src="https://dsen.innogamescdn.com/asset/cf2959e7/graphic/unit/unit_sword.png" title="Espadas" alt="" class=""></a></th>\
+                     <th style="text-align:center" width="35"><a href="#" class="unit_link" data-unit="axe"><img src="https://dsen.innogamescdn.com/asset/cf2959e7/graphic/unit/unit_axe.png" title="Hachas" alt="" class=""></a></th>\
+                     <th style="text-align:center" width="35"><a href="#" class="unit_link" data-unit="light"><img src="https://dsen.innogamescdn.com/asset/cf2959e7/graphic/unit/unit_light.png" title="Caballería ligera" alt="" class=""></a></th>\
+                     <th style="text-align:center" width="35"><a href="#" class="unit_link" data-unit="heavy"><img src="https://dsen.innogamescdn.com/asset/cf2959e7/graphic/unit/unit_heavy.png" title="Caballería pesada" alt="" class=""></a></th>\
                      <th style="text-align:center" nowrap>Tiempo objetivo</th>\
                   </tr>\
                   <tr>\
@@ -119,7 +118,7 @@ function scavenge() {
                      <td align="center"><input type="checkbox" ID="axe" name="axe" ></td>\
                      <td align="center"><input type="checkbox" ID="light" name="light" ></td>\
                      <td align="center"><input type="checkbox" ID="heavy" name="heavy" ></td>\
-                     <td ID="runtime" align="center"><input type="text" ID="hours" name="hours" size="4" maxlength="5" align=left > hours</td>\
+                     <td ID="runtime" align="center"><input type="text" ID="hours" name="hours" size="4" maxlength="5" align=left > horas</td>\
                </tbody>\
             </table>\
             </br>\
@@ -129,7 +128,7 @@ function scavenge() {
 
         for (i = 0; i < $(".border-frame-gold-red").length; i++) {
             cat = document.createElement('div');
-            cat.innerHTML = '<div align="center"><h3>Enable</h3><input type="checkbox" ID="haul' + (i + 1) + 'Enabled" name="haul' + (i + 1) + 'Enabled" ><hr></div>';
+            cat.innerHTML = '<div align="center"><h3>Activar</h3><input type="checkbox" ID="haul' + (i + 1) + 'Enabled" name="haul' + (i + 1) + 'Enabled" ><hr></div>';
             $(".border-frame-gold-red")[i].prepend(cat);
         }
 
