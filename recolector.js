@@ -128,7 +128,7 @@ function scavenge() {
 
         for (i = 0; i < $(".border-frame-gold-red").length; i++) {
             cat = document.createElement('div');
-            cat.innerHTML = '<div align="center"><h3>Activar</h3><input type="checkbox" ID="haul' + (i + 1) + 'Enabled" name="haul' + (i + 1) + 'Enabled" ><hr></div>';
+            cat.innerHTML = '<div align="center"><h3>Activar!</h3><input type="checkbox" ID="haul' + (i + 1) + 'Enabled" name="haul' + (i + 1) + 'Enabled" ><hr></div>';
             $(".border-frame-gold-red")[i].prepend(cat);
         }
 
