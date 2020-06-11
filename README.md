@@ -1,4 +1,5 @@
 # ReyCactus Scripts (GT)
+**_Scripts legales para guerrastribales.es_**
 
 En esta página podrás encontrar diferentes scripts totalmente verificados para utilizarlos legalmente en [guerrastribales.es](http://www.guerrastribales.es)
 
