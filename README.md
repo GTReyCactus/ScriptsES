@@ -28,3 +28,4 @@ javascript:
 // Creado por *REYCACTUS*
 $.getScript('https://gtreycactus.github.io/ScriptsES/tiempoConstruccion.js')
 ```
+-----------------
