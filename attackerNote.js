@@ -70,11 +70,11 @@ function initSetVillageNote() {
     if (attackerPlayerName !== '---') {
         // Prepare note data
         if (attackerPlayerName == game_data.player.name) {
-            villageId = $('table#attack_info_att')[0]
+            villageId = $('table#attack_info_def')[0]
                 .rows[1].cells[1].getElementsByTagName('span')[0]
                 .getAttribute('data-id');
         } else {
-            villageId = $('table#attack_info_def')[0]
+            villageId = $('table#attack_info_att')[0]
                 .rows[1].cells[1].getElementsByTagName('span')[0]
                 .getAttribute('data-id');
         }
